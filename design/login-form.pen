@@ -1,0 +1,479 @@
+{
+  "version": "2.21",
+  "children": [
+    {
+      "type": "frame",
+      "id": "vebPs",
+      "x": 0,
+      "y": 0,
+      "name": "Login",
+      "clip": true,
+      "width": 1440,
+      "height": 900,
+      "fill": {
+        "type": "gradient",
+        "gradientType": "linear",
+        "enabled": true,
+        "rotation": 180,
+        "size": {
+          "height": 1
+        },
+        "colors": [
+          {
+            "color": "#F9FAFB",
+            "position": 0
+          },
+          {
+            "color": "#EDEFF4",
+            "position": 1
+          }
+        ]
+      },
+      "layout": "vertical",
+      "justifyContent": "center",
+      "alignItems": "center",
+      "children": [
+        {
+          "type": "frame",
+          "id": "Q07Hs",
+          "name": "Login Card",
+          "width": 420,
+          "fill": "#FFFFFF",
+          "cornerRadius": 16,
+          "stroke": "#E7E9EE",
+          "strokeWidth": 1,
+          "effect": {
+            "type": "shadow",
+            "shadowType": "outer",
+            "color": "#0F172A1A",
+            "offset": {
+              "x": 0,
+              "y": 18
+            },
+            "blur": 40
+          },
+          "layout": "vertical",
+          "gap": 24,
+          "padding": [
+            40,
+            40,
+            36,
+            40
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "XVKal",
+              "name": "Brand",
+              "gap": 10,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "icon",
+                  "id": "pHGD4",
+                  "name": "Brand Icon",
+                  "width": 22,
+                  "height": 22,
+                  "icon": "graduation-cap",
+                  "library": "lucide",
+                  "fill": "#4F46E5"
+                },
+                {
+                  "type": "text",
+                  "id": "DOsu3",
+                  "name": "Brand Name",
+                  "fill": "#0F172A",
+                  "content": "Cursos",
+                  "fontFamily": "Inter",
+                  "fontSize": 16,
+                  "fontWeight": "600"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "naIoo",
+              "name": "Header",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 8,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "rHu9n",
+                  "name": "Title",
+                  "fill": "#0F172A",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Bienvenido de nuevo",
+                  "lineHeight": 1.25,
+                  "fontFamily": "Inter",
+                  "fontSize": 26,
+                  "fontWeight": "600",
+                  "letterSpacing": -0.4
+                },
+                {
+                  "type": "text",
+                  "id": "ZRUmg",
+                  "name": "Subtitle",
+                  "fill": "#64748B",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Accede a tus cursos y continúa donde lo dejaste.",
+                  "lineHeight": 1.5,
+                  "fontFamily": "Inter",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "VeGWq",
+              "name": "Form",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 18,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "U9jpU",
+                  "name": "Email",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 8,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "ZOGuE",
+                      "name": "Email Label",
+                      "fill": "#334155",
+                      "content": "Correo electrónico",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "500"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "k66jr",
+                      "name": "Email Input",
+                      "width": "fill_container",
+                      "height": 46,
+                      "fill": "#FFFFFF",
+                      "cornerRadius": 10,
+                      "stroke": "#DDE1E7",
+                      "strokeWidth": 1,
+                      "gap": 10,
+                      "padding": [
+                        0,
+                        12
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "Zzu3P",
+                          "name": "Email Value",
+                          "gap": 10,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "icon",
+                              "id": "l8ioTP",
+                              "name": "Email Icon",
+                              "width": 16,
+                              "height": 16,
+                              "icon": "mail",
+                              "library": "lucide",
+                              "fill": "#94A3B8"
+                            },
+                            {
+                              "type": "text",
+                              "id": "aWdbY",
+                              "name": "Email Text",
+                              "fill": "#94A3B8",
+                              "content": "tu@ejemplo.com",
+                              "fontFamily": "Inter",
+                              "fontSize": 14,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "i6Vbx",
+                  "name": "Password",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 8,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "S8hDGc",
+                      "name": "Password Label",
+                      "fill": "#334155",
+                      "content": "Contraseña",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "500"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "gTZ0G",
+                      "name": "Password Input",
+                      "width": "fill_container",
+                      "height": 46,
+                      "fill": "#FFFFFF",
+                      "cornerRadius": 10,
+                      "stroke": "#DDE1E7",
+                      "strokeWidth": 1,
+                      "gap": 10,
+                      "padding": [
+                        0,
+                        12
+                      ],
+                      "justifyContent": "space_between",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "NDfJE",
+                          "name": "Password Value",
+                          "gap": 10,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "icon",
+                              "id": "z1cEUl",
+                              "name": "Password Icon",
+                              "width": 16,
+                              "height": 16,
+                              "icon": "lock",
+                              "library": "lucide",
+                              "fill": "#94A3B8"
+                            },
+                            {
+                              "type": "text",
+                              "id": "o666I",
+                              "name": "Password Text",
+                              "fill": "#0F172A",
+                              "content": "••••••••",
+                              "fontFamily": "Inter",
+                              "fontSize": 14,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "icon",
+                          "id": "gBqGp",
+                          "name": "Show Password",
+                          "width": 16,
+                          "height": 16,
+                          "icon": "eye",
+                          "library": "lucide",
+                          "fill": "#94A3B8"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "KMfvg",
+                  "name": "Options",
+                  "width": "fill_container",
+                  "justifyContent": "space_between",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "PkJh9",
+                      "name": "Remember",
+                      "gap": 8,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "rectangle",
+                          "cornerRadius": 4,
+                          "id": "X5en0K",
+                          "name": "Checkbox",
+                          "fill": "#FFFFFF",
+                          "width": 18,
+                          "height": 18,
+                          "stroke": "#CBD5E1",
+                          "strokeWidth": 1
+                        },
+                        {
+                          "type": "text",
+                          "id": "Czgli",
+                          "name": "Remember Label",
+                          "fill": "#475569",
+                          "content": "Recordarme",
+                          "fontFamily": "Inter",
+                          "fontSize": 13,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "VX2bV",
+                      "name": "Forgot Password",
+                      "fill": "#4F46E5",
+                      "content": "¿Olvidaste tu contraseña?",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "500"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "zDIKK",
+                  "name": "Sign In Button",
+                  "width": "fill_container",
+                  "height": 46,
+                  "fill": "#4F46E5",
+                  "cornerRadius": 10,
+                  "effect": {
+                    "type": "shadow",
+                    "shadowType": "outer",
+                    "color": "#4F46E533",
+                    "offset": {
+                      "x": 0,
+                      "y": 6
+                    },
+                    "blur": 16
+                  },
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "L9ntT",
+                      "name": "Sign In Label",
+                      "fill": "#FFFFFF",
+                      "content": "Iniciar sesión",
+                      "fontFamily": "Inter",
+                      "fontSize": 15,
+                      "fontWeight": "600"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "wijqx",
+              "name": "Divider",
+              "width": "fill_container",
+              "gap": 12,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "rectangle",
+                  "id": "jtrLo",
+                  "name": "Divider Line Left",
+                  "fill": "#E7E9EE",
+                  "width": "fill_container",
+                  "height": 1
+                },
+                {
+                  "type": "text",
+                  "id": "u6TESk",
+                  "name": "Divider Label",
+                  "fill": "#94A3B8",
+                  "content": "o continúa con",
+                  "fontFamily": "Inter",
+                  "fontSize": 12,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "rectangle",
+                  "id": "sqCOR",
+                  "name": "Divider Line Right",
+                  "fill": "#E7E9EE",
+                  "width": "fill_container",
+                  "height": 1
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "lVfUD",
+              "name": "Google Button",
+              "width": "fill_container",
+              "height": 46,
+              "fill": "#FFFFFF",
+              "cornerRadius": 10,
+              "stroke": "#DDE1E7",
+              "strokeWidth": 1,
+              "gap": 10,
+              "justifyContent": "center",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "icon",
+                  "id": "TpUKc",
+                  "name": "Google Icon",
+                  "width": 16,
+                  "height": 16,
+                  "icon": "globe",
+                  "library": "lucide",
+                  "fill": "#475569"
+                },
+                {
+                  "type": "text",
+                  "id": "T0O95",
+                  "name": "Google Label",
+                  "fill": "#0F172A",
+                  "content": "Continuar con Google",
+                  "fontFamily": "Inter",
+                  "fontSize": 14,
+                  "fontWeight": "500"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "fNFEP",
+              "name": "Footer",
+              "width": "fill_container",
+              "gap": 5,
+              "justifyContent": "center",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "N2nnZy",
+                  "name": "Footer Text",
+                  "fill": "#64748B",
+                  "content": "¿No tienes una cuenta?",
+                  "fontFamily": "Inter",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "loYFx",
+                  "name": "Footer Link",
+                  "fill": "#4F46E5",
+                  "content": "Crear cuenta",
+                  "fontFamily": "Inter",
+                  "fontSize": 13,
+                  "fontWeight": "600"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "fileToken": "6792216a-87e2-4be0-97e1-cba96dc28339"
+}

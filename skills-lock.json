@@ -1,0 +1,65 @@
+{
+  "version": 1,
+  "skills": {
+    "accessibility-review": {
+      "source": "anthropics/knowledge-work-plugins",
+      "sourceType": "github",
+      "skillPath": "design/skills/accessibility-review/SKILL.md",
+      "computedHash": "0535a56e6832f49959388564166fcf25e15b3fc5daf824744a3eb88ee3a84f87"
+    },
+    "design-critique": {
+      "source": "anthropics/knowledge-work-plugins",
+      "sourceType": "github",
+      "skillPath": "design/skills/design-critique/SKILL.md",
+      "computedHash": "2783817f3355592c2007c55e0ebf0bfeded7ff977bf1f420f1646c819248e9ad"
+    },
+    "design-handoff": {
+      "source": "anthropics/knowledge-work-plugins",
+      "sourceType": "github",
+      "skillPath": "design/skills/design-handoff/SKILL.md",
+      "computedHash": "bb11bb6bf6afd04050d30050af852a7f61afd9966f5be40ee81fba0af249f925"
+    },
+    "design-system": {
+      "source": "anthropics/knowledge-work-plugins",
+      "sourceType": "github",
+      "skillPath": "design/skills/design-system/SKILL.md",
+      "computedHash": "a3e80db58f7cb17b084a7b40e5e7d738714106a5f2ca8f67ba5d18f894c388ac"
+    },
+    "design-taste-frontend": {
+      "source": "Leonxlnx/taste-skill",
+      "sourceType": "github",
+      "skillPath": "skills/taste-skill/SKILL.md",
+      "computedHash": "6ac8ba6089dcbc303744a507a4587113c5d845ca2f658b3ce2b0b5eab108fb0d"
+    },
+    "emil-design-eng": {
+      "source": "emilkowalski/skills",
+      "sourceType": "github",
+      "skillPath": "skills/emil-design-eng/SKILL.md",
+      "computedHash": "51f2537e04d15911b41d78e2de24c36a0e26d41beae15e82a954fe5496a5eda9"
+    },
+    "find-skills": {
+      "source": "vercel-labs/skills",
+      "sourceType": "github",
+      "skillPath": "skills/find-skills/SKILL.md",
+      "computedHash": "b146008599c31057cef1c145774cea5d5afb30e8f43fa802e47a4b461419aaaf"
+    },
+    "research-synthesis": {
+      "source": "anthropics/knowledge-work-plugins",
+      "sourceType": "github",
+      "skillPath": "design/skills/research-synthesis/SKILL.md",
+      "computedHash": "53d3d82018960f4f6645052ff6c0b90f5687889c6fb59d4b5a34698eb0ec80a9"
+    },
+    "user-research": {
+      "source": "anthropics/knowledge-work-plugins",
+      "sourceType": "github",
+      "skillPath": "design/skills/user-research/SKILL.md",
+      "computedHash": "fa18fc13d0f44aa869102962ef9466417ade726d659465195a40fbcf08cee156"
+    },
+    "ux-copy": {
+      "source": "anthropics/knowledge-work-plugins",
+      "sourceType": "github",
+      "skillPath": "design/skills/ux-copy/SKILL.md",
+      "computedHash": "b38daf15530fd3dc7ac4e8646cad392bb3122eba132665c1e0aa2d00b802ea1f"
+    }
+  }
+}
